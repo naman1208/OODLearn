@@ -4,15 +4,15 @@ javac GearCalculator.java -d ClassFiles
 java -cp ClassFiles learnOOD.GearCalculator
 */
 class Gear {
-	private int chaining;
+	private int chainring;
 	private int cog;
 	Gear(int chaining, int cog)
 	{
-		this.chaining = chaining;
+		this.chainring = chainring;
 		this.cog = cog;
 	}
 	public double getRatio() {
-		double ratio = (double)chaining / cog;
+		double ratio = (double)chainring / cog;
 		return ratio;
 	}
 
